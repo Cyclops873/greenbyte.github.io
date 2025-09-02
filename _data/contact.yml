@@ -10,7 +10,6 @@
 
 - type: email
   icon: "fas fa-envelope"
-  url: "mailto:joselhernandezviales@gmail.com"
   noblank: true # open link in current tab
 
 - type: rss
