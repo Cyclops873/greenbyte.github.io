@@ -1,8 +1,8 @@
 ---
 title: Instalando Docker Compose
-date: 2025-09-05 15:20:00 -0600
-categories: [Contenedores, Linux]
-tags: [docker, instalación, cli, tutorial]  
+date: 2025-09-05 15:30:00 -0600
+categories: [contenedores,linux]
+tags: [docker,instalación,cli,tutorial]  
 ---
 
 # Docker Compose en Linux: Instalación Paso a Paso desde la CLI 🐳
