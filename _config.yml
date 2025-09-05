@@ -44,6 +44,9 @@ social:
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/joselhernandezviales/
 
+author:
+  name: José Hernández
+
 # Site Verification Settings
 webmaster_verifications:
   google: # fill in your Google verification code
