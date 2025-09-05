@@ -5,7 +5,7 @@ categories: [contenedores,linux]
 tags: [docker,instalación,cli,tutorial]
 ---
 
-![Linux-Docker](/assets/img/posts/DC-Setup/Inicio.png)
+![Docker-Setup](/assets/img/posts/DC-Setup/Inicio.png)
 
 ### Instalación + primer contenedor + "Hola Mundo" en pocos minutos. Sin experiencia previa necesaria. ¡Empezamos!
 
