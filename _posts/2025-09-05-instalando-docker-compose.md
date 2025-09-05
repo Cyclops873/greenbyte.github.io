@@ -3,7 +3,7 @@ title: "Docker Compose en Linux: Instalación Paso a Paso desde la CLI 🐳"
 date: 2025-09-05 15:30:00 -0600
 categories: [contenedores,linux]
 tags: [docker,instalación,cli,tutorial]
-author: José Hernández
+author: 
 ---
 
 ![Linux-Docker](/assets/img/posts/DC-Setup/Inicio.png "Docker Setup Guide")
