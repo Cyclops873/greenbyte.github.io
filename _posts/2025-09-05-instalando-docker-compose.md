@@ -80,7 +80,7 @@ services:
   hello:
     image: hello-world
 ```
->Guarda y cierra el archivo (Ctrl+O, Ctrl+M y Ctrl+X en nano).
+> Guarda y cierra el archivo (Ctrl+O, Ctrl+M y Ctrl+X en nano).
 {: .prompt-info }
 
 ## Paso 4: Levantar el contenedor
