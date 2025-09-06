@@ -15,22 +15,26 @@ author: jose-hernandez
 Primero, necesitamos instalar Docker, que es el software que nos permite crear y manejar contenedores.
 
 1. Actualiza tus repositorios:
+
 ```bash
 sudo apt update
 ```
 
 2. Instala Docker:
+
 ```bash
 sudo apt install docker.io -y
 ```
 
 3. Habilita Docker para que inicie automáticamente y arráncalo: 
+
 ```bash
 sudo systemctl enable docker
 sudo systemctl start docker
 ```
 
 4. Verifica que Docker esté instalado correctamente:
+
 ```bash
 docker --version
 ```
@@ -41,16 +45,19 @@ docker --version
 Docker Compose permite levantar varios contenedores con un solo comando usando un archivo docker-compose.yml.
 
 1. Descarga la última versión de Docker Compose:
+
 ```bash
 sudo curl -L "https://github.com/docker/compose/releases/latest/download/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 ```
 
 2. Dale permisos de ejecución:
+
 ```bash
 sudo chmod +x /usr/local/bin/docker-compose
 ```
 
 3. Verifica la instalación: 
+
 ```bash
 docker-compose --version
 ```
@@ -62,17 +69,20 @@ docker-compose --version
 Este archivo le dice a Docker qué contenedor levantar.
 
 1. Crea una carpeta para tu proyecto y entra en ella:
+
 ```bash
 mkdir mi-primer-contenedor
 cd mi-primer-contenedor
 ```
 
 2. Crea el archivo docker-compose.yml:
+
 ```bash
 nano docker-compose.yml
 ```
 
 3. Copia esto dentro (es muy sencillo, solo levanta un contenedor de “Hello World”):
+
 ```yaml
 version: "3.9"
 
@@ -86,6 +96,7 @@ services:
 ## Paso 4: Levantar el contenedor
 
 Ahora solo necesitamos ejecutar un comando:
+
 ```bash
 sudo docker-compose up
 ```
@@ -96,9 +107,10 @@ sudo docker-compose up
 ## Paso 5: Detener el contenedor
 
 Cuando termines, puedes detenerlo con:
+
 ```bash
 sudo docker-compose down
 ```
 Esto apaga y limpia el contenedor.
 
-### ✅ ¡Listo! Acabas de levantar tu primer contenedor Docker usando Docker Compose de manera sencilla.
+#### ✅ ¡Listo! Acabas de levantar tu primer contenedor Docker usando Docker Compose de manera sencilla.
